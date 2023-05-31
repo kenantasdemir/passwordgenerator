@@ -1,0 +1,28 @@
+input[type="range"] {
+  /* Genel stil ayarları */
+  height: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  /* Kaydırma kolu stil ayarları */
+  appearance: none;
+  width: 20px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  /* Firefox için kaydırma kolu stil ayarları */
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
